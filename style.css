@@ -1,0 +1,71 @@
+html {
+margin: 0;
+padding: 0%;
+}
+
+:focus{
+    outline: 0;
+}
+
+body{
+    line-height: 1;
+    color: wheat;
+    background: url(/Background.webp) no-repeat fixed;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+header, nav, details, section, aside, footer {
+    display: block;
+}
+
+.btn {
+    float: right;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin: 0 7px 11px 0;
+    padding: 0 20px;
+    text-align: center;
+    /* tạo hiệu ứng bởi all */
+    transition: all 0.7s ease;
+    line-height: 3;
+    width: 100%;
+    height: 45px;
+    background: palegoldenrod;
+    box-shadow: 0 6px peru;
+}
+
+/* Khi di chuột vào chỉ cần thêm :hover*/
+.btn:hover {
+    background: rgb(136, 49, 49);
+    color: white;
+}
+
+/* tạo hiệu ứng nút nhấn sử dụng :active */
+.btn:active {
+    top: 5px;
+    box-shadow: none;
+}
+
+header {
+    text-align: center;
+}
+
+.panel {
+    position: absolute; /* làm box dài vừa đủ với kích thước chữ */
+    top: 100px;
+    padding: 20px;
+    z-index: 400;
+    border-radius: 3px;
+    background-color: lightcoral;
+}
